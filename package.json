@@ -1,0 +1,30 @@
+{
+  "name": "organisation",
+  "version": "0.0.0",
+  "description": "make an organisation page",
+  "main": "src/organisation.js",
+  "scripts": {
+    "start": "budo demo/demo.js:bundle.js --open --live --ssl",
+    "build": "browserify demo/demo.js > bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serapath/organisation.git"
+  },
+  "keywords": [],
+  "author": "@serapath",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serapath/organisation/issues"
+  },
+  "homepage": "https://github.com/serapath/organisation#readme",
+  "devDependencies": {
+    "budo": "^11.6.1"
+  },
+  "dependencies": {
+    "bel": "^6.0.0",
+    "csjs-inject": "^1.0.1"
+  }
+}
